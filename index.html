@@ -7,13 +7,13 @@
         <script src="vendors/processing.min.js"></script>
     </head>
     <body>
-        <h1>Progetto conclusivo di Isabella Pes/h1>
+        <h1>Progetto conclusivo di Isabella Pes</h1>
         <script type="text/processing">
 
             
 void setup(){
            size(400,400);
-          background (174);
+          background (255);
  }
 void draw(){
  
@@ -23,9 +23,9 @@ void draw(){
   rotate (radians(frameCount * 3 %360));
   rect(30,10,54,-110);
   fill (0, 200, 0);
-  fill (frameCount*20 %500);
+  fill (frameCount*20 %700);
   popMatrix();
-  translate(100,150,-200);
+  translate(100,150,-300);
   rotate(radians(19));
   box(70);
   fill (255,0,0);
@@ -41,19 +41,7 @@ void draw(){
   rotate(radians(17));
   box(70);
   fill (0,0,0);
-  
-   pushMatrix();
-  translate(180,180);
-  rotate (radians(frameCount * 3 %360));
-  rect(40,30,60,-100);
-  fill (200, 0, 0);
-  fill (frameCount*20 %500);
-  popMatrix();
-  translate(100,150,-200);
-  rotate(radians(19));
-  box(70);
-  fill (132,154,154);
- 
+
   
     
 }
