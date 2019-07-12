@@ -41,7 +41,16 @@ void draw(){
   box(60);
   fill (200,100,230);
   
-  
+   pushMatrix();
+  translate(200,150);
+  rotate (radians(frameCount * 3 %360));
+  rect(90,40,84,-230);
+  fill (0, 255, 0);
+  popMatrix();
+  translate(100,150,-300);
+  rotate(radians(30));
+  box(50);
+  fill (0,255,0);
     
 }
             
