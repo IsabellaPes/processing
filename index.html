@@ -31,12 +31,12 @@ void draw(){
   
    pushMatrix();
   translate(100,100);
-  rotate (radians(frameCount * 2 %360));
+  rotate (radians(frameCount * 2 %100));
   rect(40,30,60,-100);
-  fill (121, 110, 0);
+  fill (100, 110, 100);
   fill (frameCount*20 %500);
   popMatrix();
-  translate(10,150,-200);
+  translate(110,150,-200);
   rotate(radians(10));
   box(30);
   fill (200,100,0);
